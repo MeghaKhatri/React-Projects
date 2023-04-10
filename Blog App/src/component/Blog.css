@@ -1,0 +1,15 @@
+.title {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+} 
+
+.blogs{
+    padding-top: 3%;
+    width: 50%;
+    margin: auto;
+}
+
+.tags{
+    color: rgb(93, 93, 176);
+}
