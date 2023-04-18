@@ -8,6 +8,7 @@ function App() {
   let increase =()=> {
     setCount(count + 1)
   }
+  
   let decrease =()=> {
     setCount(count - 1)
   }
