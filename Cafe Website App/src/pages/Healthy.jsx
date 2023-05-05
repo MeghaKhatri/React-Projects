@@ -17,4 +17,4 @@ function Healthy() {
   )
 }
 
-export default Healthy
+export default Healthy;
