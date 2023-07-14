@@ -5,10 +5,12 @@ import Pagination from './component/Pagination';
 import { Appcontext } from './context/Appcontext';
 
 function App() {
+  
   const {fetchBlogPosts} = useContext(Appcontext);
   useEffect(()=>{
     fetchBlogPosts();
   },[]);
+  
   return (
     <div>
       <Header/>
@@ -17,6 +19,4 @@ function App() {
     </div>
   )
 }
-
-
 export default App;
