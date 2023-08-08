@@ -1,6 +1,5 @@
 import Template from "../components/Auth/Template";
 import signupImg from "../assets/signup.png";
-
 function Signup({ setIsLoggedIn }) {
   return (
     <Template
@@ -13,5 +12,4 @@ function Signup({ setIsLoggedIn }) {
     />
   );
 }
-
 export default Signup;
