@@ -20,7 +20,6 @@ const Home = () => {
     }
     setLoading(false);
   }
-
   useEffect( () => {
     fetchProductData();
   },[])
