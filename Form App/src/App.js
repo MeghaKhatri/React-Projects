@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import "./App.css";
 
@@ -28,7 +27,6 @@ function App() {
 
   function submitHandler(event) {
     event.preventDefault();
-
     console.log("Finally printing the value of Form Data:");
     console.log(formData);
   }
