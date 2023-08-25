@@ -1,11 +1,9 @@
-
 import { createContext, useState } from "react";
 import { baseUrl } from '../baseUrl';
 
 export const Appcontext = createContext();
 
 export default function AppContextProvider({children}){
-
     const [loading,setloading] = useState(false);
     const [page,setpage]=useState(1);
     const [posts,setposts]= useState([]);
@@ -22,7 +20,6 @@ export default function AppContextProvider({children}){
         setpage(data.page);
         setposts(data.posts);
         settotalpage(data.totalpage);
-        
       }
       catch(error){
         console.log("error in fetch data");
