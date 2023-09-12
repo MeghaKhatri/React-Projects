@@ -7,7 +7,6 @@ const App = () => {
     <Counter/>
   </div>)
 };
-
 export default App;
 
 
