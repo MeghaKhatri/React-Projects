@@ -13,7 +13,6 @@ export default function AppContextProvider({children}){
         setloading(true);
 
         let url = `${baseUrl}?page=${page}`;
-
       try{
         const result = await fetch(url);
         const data = await result.json();
